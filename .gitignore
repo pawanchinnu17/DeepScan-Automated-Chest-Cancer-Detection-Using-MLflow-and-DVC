@@ -121,7 +121,7 @@ celerybeat.pid
 
 # Environments
 .env
-.myenv/    # <-- Add your environment directory here
+myenv/  # <-- Add your environment directory here
 .venv
 env/
 venv/
