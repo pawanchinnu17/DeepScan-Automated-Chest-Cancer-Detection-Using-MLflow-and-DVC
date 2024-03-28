@@ -36,8 +36,6 @@ def trainRoute():
     return "Training done successfully!"
 
 
-
-
 @app.route("/predict", methods=['POST'])
 @cross_origin()
 def predictRoute():
@@ -49,7 +47,7 @@ def predictRoute():
 
 
 if __name__ == "__main__":
-
     clApp = ClientApp()
 
     app.run(host='0.0.0.0', port=8080) #for awaS
+    # app.run(debug=True)
